@@ -1,0 +1,43 @@
+/* change color of whole page */
+body {
+    margin: 0;
+    background-color: #0C2D48;
+}
+
+/* make image smaller */
+
+img {
+    width: 375px; 
+    height: auto;
+    padding: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* make defined header and footer that match */
+
+h1, main > footer > h2 {
+    font-family: Palatino, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background-color: #145DA0;
+    margin: 0; 
+    padding: 20px
+}
+
+/* center naviagtion bar */
+nav, h2 {
+    text-align: center;
+}
+
+/* change font size in footer */
+
+main > footer > h2 {
+    font-size: 22px;
+}
+
+.intro, .about, .contact {
+   display: block;
+   width: 50%;
+   margin-left: 25%;
+}
