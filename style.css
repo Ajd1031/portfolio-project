@@ -33,7 +33,7 @@ h1 {
 
 /* center naviagtion bar */
 
-nav, h2 {
+nav, h2, h3 {
     text-align: center;
 }
 
@@ -85,5 +85,4 @@ hr {
     background-color: black;
     margin-top: 60px;
     margin-bottom: 60px;
-
 }
