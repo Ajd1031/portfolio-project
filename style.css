@@ -22,22 +22,66 @@ h1, main > footer > h2 {
     font-size: 50px;
     background-color: #145DA0;
     margin: 0; 
-    padding: 20px
+    padding: 20px;
+}
+
+/* add border to bottom of header */
+
+h1 {
+    border-bottom: 3px solid black;
 }
 
 /* center naviagtion bar */
+
 nav, h2 {
     text-align: center;
+}
+
+/* add space between words */
+
+nav {
+    word-spacing: 25px;
 }
 
 /* change font size in footer */
 
 main > footer > h2 {
     font-size: 22px;
+    border-top: 3px solid black;
+    margin-top: 60px;
 }
+
+/* center main text */
 
 .intro, .about, .contact {
    display: block;
    width: 50%;
    margin-left: 25%;
+}
+
+/* change color of links at various states */
+
+a:link {
+    color: #2E8BC0;
+}
+
+a:visited {
+    color: #A700CC
+}
+
+a:hover {
+    color: white;
+}
+a:active {
+    color: #EC0051
+}
+
+hr {
+    width: 75%;
+    height: 5px;
+    border: black;
+    background-color: black;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
 }
