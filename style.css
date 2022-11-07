@@ -17,7 +17,7 @@ img {
 
 /* make defined header and footer that match */
 
-h1, main > footer > h2 {
+h1, main > footer > h3 {
     font-family: Palatino, 'Times New Roman', Times, serif;
     font-size: 50px;
     background-color: #145DA0;
@@ -45,7 +45,7 @@ nav {
 
 /* change font size in footer */
 
-main > footer > h2 {
+main > footer > h3 {
     font-size: 22px;
     border-top: 3px solid black;
     margin-top: 60px;
